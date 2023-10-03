@@ -1,0 +1,37 @@
+.DateList {
+    /*width: 100%;*/
+}
+.DateList__months {
+
+}
+.DateList_dates {
+
+}
+
+.weekdays {
+    display: grid;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+.calendar_dates {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+}
+.calendar_date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    padding: 20px;
+
+}
+.calendar_date:last-child {
+    margin-right: 0;
+}
+.calendar_date__full {
+    display: none;
+    /*visibility: hidden;*/
+}

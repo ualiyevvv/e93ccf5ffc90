@@ -1,0 +1,31 @@
+.ContentDrawer {
+    display: none;
+    position: relative;
+    height: 100%;
+    min-width: 350px;
+    background-color: var(--color-bg);;
+    transition: all .4s;
+    /*height: 100%;*/
+    overflow: auto;
+}
+.ContentDrawer__close {
+    position: absolute;
+    right: 25px;
+    top: 8px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.ContentDrawer__body {
+    padding: 20px;
+    padding-top: 40px;
+    width: 100%;
+}
+.ContentDrawer--expanded {
+    display: block;
+}
+.ContentDrawer--right {
+
+}
+.ContentDrawer--left {
+
+}
